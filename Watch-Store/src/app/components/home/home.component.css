@@ -1,0 +1,42 @@
+.nav-spacer {
+    height: 8vh;
+}
+#container {
+    background-image: url('http://localhost:8000/uploads/hublot-cat.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    padding: 25px;
+}
+#spacer {
+    height: 100vh;
+}
+#services {
+    margin-bottom: 50px;
+}
+#services .mat-elevation-z8 {
+    width: 75%;
+    height: 75%;
+}
+#services .service-content {
+    text-align: center;
+    margin-top: 10%;
+}
+#services mat-icon {
+    font-size: xx-large;
+    color: #ff4081;
+}
+#about {
+    margin-bottom: 50px;
+}
+#about .mat-elevation-z8 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#categories {
+    margin: 25px;
+}
+#categories mat-card {
+    width: 75%;
+    height: 75%;
+}

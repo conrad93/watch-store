@@ -1,0 +1,29 @@
+mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0 30px;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+mat-sidenav-container{
+  height: 100%;
+}
+mat-sidenav{
+  width: 200px;
+  padding: 10px;
+}
+mat-list-item a{
+  align-items: center;
+  display: flex;
+}
+mat-list-item a span{
+  padding: 0px 10px;
+}
+mat-list-item.active{
+  color: #ff4081;
+}
+.mat-line{
+  text-align: center;
+}
